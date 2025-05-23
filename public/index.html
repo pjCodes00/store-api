@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Store Api</title>
+    <link rel="stylesheet" href="./style/products.css">
+     <link rel="stylesheet" href="./style/tutorial.css">
+    <script src="https://kit.fontawesome.com/80ccbcef3b.js" crossorigin="anonymous"></script>
+    
+  </head>
+  <body>
+   
+
+    <div class="header1">
+      <div class="tutorial-cont">
+        <i class="fa-solid fa-file-video"></i>
+        <div class="tooltip">Watch tutorial</div>
+      </div>
+      <p class="name-text">Hello, there</p>
+      <button class="logout-btn">LOGOUT</button>
+    </div>
+
+    <div class="header2">
+      <div class="left-section">
+        <button class="c-btn">c</button>
+      </div>
+      <div class="middle-section">
+        <button>Home</button>
+        <button>About</button>
+        <button>Products</button>
+        <button>Cart</button>
+        <button>Checkout</button>
+        <button>Orders</button>
+      </div>
+      <div class="right-section">
+        <i class="fa-solid fa-moon"></i>
+        <i class="fa-solid fa-cart-shopping"></i>
+      </div>
+    </div>
+
+    <div class="options-main-container">
+      <div class="options-sub-container">
+        <div class="input-cont">
+          <p>Search Product</p>
+          <input type="text" class="search-input">
+        </div>
+        <div class="input-cont">
+          <p>Select Category</p>
+          <select name="options" class="options category">
+            <option value="all">All</option>
+            <option value="tables">Tables</option>
+            <option vlaue="chairs">Chairs</option>
+            <option value="kids">Kids</option>
+            <option value="sofas">Sofas</option>
+            <option value="beds">Beds</option>
+          </select>
+        </div>
+        <div class="input-cont">
+          <p>Select Company</p>
+          <select name="options" class="options company">
+            <option value="all">All</option>
+            <option value="marcos">Marcos</option>
+            <option value="liddy">Liddy</option>
+            <option value="ikea">Ikea</option>
+            <option value="caressa">Caressa</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="options-sub-container sub-container">
+        <div class="input-cont">
+          <p>Sort</p>
+          <input type="text" placeholder="eg: price or -price or name or -name" class="rating sort">
+        </div>
+        <div class="input-cont">
+          <p>Limit</p>
+          <input type="number" placeholder="limit" class="limit">
+        </div>
+        <div class="input-cont">
+          <p>Featured</p>
+          <input type="text" placeholder="eg: true or false" class="featured">
+        </div>
+        <div class="input-cont">
+          <p>Fields</p>
+          <input type="text" placeholder="eg: name, price, rating, company" class="fields">
+        </div>
+      </div>
+
+      <div class="options-sub-container">  
+        <div class="input-cont">
+          <p>Filter</p>
+          <input type="text" placeholder="eg: price&lt;50 or rating&lt;5 " class="rating-price">
+        </div>
+        <div class="shipping-cont">
+          <p>Free shipping</p>
+          <input type="checkbox" class="checkbox shipping">
+        </div>
+        <div>
+          <button class="search-btn">Search</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="header3">
+      <div class="product-number"></div>     
+      <div>
+        <button class="horizontal-btn"><i class="fa-solid fa-grip"></i></button>
+        <button class="vertical-btn"><i class="fa-solid fa-bars"></i></button>
+      </div>
+    </div>
+
+    <div class="grid-container"></div>
+
+    <div class="page-cont">
+      <button class="prev-btn">PREV</button>
+      <button class="first-btn">1</button>
+      <button class="second-btn">2</button>
+      <button class="third-btn">3</button>
+      <button class="next-btn">NEXT</button>
+    </div>
+
+  <div class="modal">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <video class="tutorial-video" controls>
+        <source src="./videos/storeapi.mp4" type="video/mp4">    
+      </video>
+      <video></video>
+    </div>
+  </div>
+
+
+   
+   <script type="module" src="./scripts/products.js"></script>
+   <script type="module" src="./scripts/tutorial.js"></script>
+  </body>

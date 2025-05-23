@@ -1,0 +1,156 @@
+[
+  {
+    "name": "accent chair",
+    "price": 25,
+    "company": "marcos",
+    "rating": 4,
+    "image": "/images/accent-chair.jpg"
+  },
+  {
+    "name": "albany sectional",
+    "price": 109,
+    "company": "liddy",
+    "rating": 5,
+     "image": "/images/albany-sectional.jpg"
+  },
+  {
+    "name": "albany table",
+    "price": 309,
+    "company": "liddy",
+    "rating": 4.9,
+     "image": "/images/albany-table.jpg"
+  },
+  {
+    "name": "armchair",
+    "price": 125,
+    "company": "marcos",
+    "rating": 4.8,
+     "image": "/images/arm-chair.jpg"
+  },
+  {
+    "name": "bar stool",
+    "price": 40,
+    "company": "liddy",
+    "rating": 4.6,
+     "image": "/images/bar-stool.jpg"
+  },
+  {
+    "name": "dining table",
+    "price": 42,
+    "company": "ikea",
+    "rating": 4.55,
+     "image": "/images/dinning-table.jpg"
+  },
+  {
+    "name": "emperor bed",
+    "price": 23,
+    "company": "ikea",
+     "image": "/images/emperor-bed.jpg"
+  },
+  {
+    "name": "entertainment center",
+    "price": 59,
+    "featured": true,
+    "company": "caressa",
+     "image": "/images/entertainment-center.jpg"
+  },
+  {
+    "name": "high-back bench",
+    "price": 39,
+    "featured": true,
+    "company": "ikea",
+     "image": "/images/highback-bench.jpg"
+  },
+
+  {
+    "name": "leather sofa",
+    "price": 99,
+    "company": "caressa",
+     "image": "/images/leather-sofa.jpg"
+  },
+  {
+    "name": "modern bookshelf",
+    "price": 31,
+    "featured": true,  
+    "company": "caressa",
+    "image": "/images/modern-bookshelf.jpg"
+  },
+  {
+    "name": "modern poster",
+    "price": 30,
+    "company": "liddy",
+     "image": "/images/modern-poster.jpg"
+  },
+  {
+    "name": "shelf",
+    "price": 30,
+    "company": "ikea",
+     "image": "/images/shelf.jpg"
+  },
+  {
+    "name": "simple chair",
+    "price": 109,
+    "company": "liddy",
+     "image": "/images/simple-chair.jpg"
+  },
+  {
+    "name": "sofa set",
+    "price": 129,
+    "company": "marcos",
+     "image": "/images/sofa-set.jpg"
+  },
+  {
+    "name": "suede armchair",
+    "price": 15,
+    "company": "caressa",
+     "image": "/images/suede-armchair.jpg",
+      "shipping": true
+  },
+  {
+    "name": "utopia sofa",
+    "price": 79,
+    "featured": true,
+    "company": "liddy",
+     "image": "/images/utopia-sofa.jpg"
+  },
+  {
+    "name": "vase table",
+    "price": 120,
+    "featured": true,
+    "company": "marcos",
+     "image": "/images/vase-table.jpg"
+  },
+  {
+    "name": "wooden bed",
+    "price": 25,
+    "company": "ikea",
+     "image": "/images/wooden-bed.jpg"
+  },
+  {
+    "name": "wooden desk",
+    "price": 15,
+    "company": "ikea",
+     "image": "/images/wooden-desk1.jpg",
+     "shipping": true
+  },
+  {
+    "name": "wooden desk",
+    "price": 40,
+    "company": "ikea",
+     "image": "/images/wooden-desk2.jpg"
+  },
+  {
+    "name": "wooden table",
+    "price": 23,
+    "featured": true,
+    "company": "caressa",
+     "image": "/images/wooden-table1.jpg"
+  },
+  {
+    "name": "a first wooden table",
+    "price": 23,
+    "featured": true,
+    "company": "caressa",
+     "image": "/images/wooden-table2.jpg"
+  }
+]
